@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #1a1c0f;
+  font-family: 'Amiri', serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+  color: #b4ba98;
+}
+.clearfix::after {
+  content: '';
+  color: white;
+  display: table;
+  clear: both;
+}
+.main-header {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  width: 2000px;
+  min-height: 1175px;
+  font-size: 0;
+  text-align: center;
+  background: url("../img/header.png") no-repeat center;
+  z-index: 10;
+}
+.header-container {
+  position: relative;
+  margin: 0 auto;
+  width: 800px;
+  z-index: 10;
+}
+.logo {
+  padding-top: 120px;
+}
+.main-header h1 {
+  position: relative;
+  margin-top: 115px;
+  margin-bottom: 0;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 900;
+  color: #ffffff;
+}
+.main-header h1::before {
+  width: 240px;
+  content: "";
+  position: relative;
+  top: 30px;
+  right: -50px;
+  display: block;
+  border-bottom: 4px solid #cdb378;
+}
+.main-header h1::after {
+  width: 240px;
+  content: "";
+  position: relative;
+  top: -32px;
+  right: -505px;
+  display: block;
+  border-bottom: 4px solid #cdb378;
+}
+.main-header h2 {
+  position: relative;
+  margin-top: 5px;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 36px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.main-header p {
+  margin-top: -15px;
+  font-size: 24px;
+  line-height: 30px;
+  font-style: italic;
+  font-weight: 400;
+  color: #cdb378;
+}
+.scroll p {
+  margin-top: 320px;
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 30px;
+}
+.arrow img {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+.main-text {
+  position: relative;
+  margin: 0 auto;
+  margin-top: -150px;
+  width: 2000px;
+  min-height: 5267px;
+  background: url("../img/PhotoBG.jpg") no-repeat center;
+}
+.container {
+  width: 1570px;
+  margin: 0 auto;
+}
+.text-1 h2 {
+  float: left;
+  margin-top: 147px;
+  margin-bottom: 0;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 72px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.text-1 p {
+  float: left;
+  padding-right: 500px;
+  margin-top: 10px;
+  color: #ccb278;
+}
+.main-section {
+  position: relative;
+}
+.photo-1 {
+  position: relative;
+}
+.photo-1 img {
+  position: absolute;
+  top: -240px;
+  right: 0;
+  z-index: 20;
+}
+.photo-2 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-top: -48px;
+  width: 1873px;
+  min-height: 783px;
+  background: url(../img/Logo2.png) no-repeat center;
+  z-index: 30;
+}
+.text-2 {
+  margin-top: -535px;
+}
+.text-2 h2 {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 72px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #cdb378;
+  z-index: 40;
+}
+.text-2 p {
+  position: relative;
+  padding-right: 500px;
+  margin-top: 40px;
+  margin-bottom: 46px;
+  z-index: 40;
+}
+.btn {
+  padding: 12px 60px;
+  font-size: 16px;
+  line-height: 48px;
+  text-transform: uppercase;
+  background: #272a18;
+  border: 2px solid #404429;
+  color: #ffffff;
+  text-decoration: none;
+}
+.text-2 .btn {
+  position: relative;
+  margin-top: 40px;
+  z-index: 40;
+}
+.photo-3 {
+  position: relative;
+  margin-left: 94px;
+  z-index: 100;
+}
+.bottle {
+  position: absolute;
+  top: -150px;
+  left: 1205px;
+}
+.photo-4 {
+  position: relative;
+  margin-top: -255px;
+  z-index: 70;
+}
+.text-3 {
+  margin-top: 100px;
+  width: 2000px;
+  min-height: 883px;
+  background: #ffffff url(../img/Photo2.jpg) no-repeat center;
+  color: #1a1c0f;
+}
+.text-3 h2 {
+  padding-left: 1180px;
+  padding-top: 315px;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 900;
+}
+.text-4 {
+  position: relative;
+}
+.text-4 h2 {
+  margin-top: 150px;
+  margin-bottom: 70px;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #cdb378;
+}
+.text-4 p {
+  padding-right: 880px;
+  margin-top: 50px;
+}
+.photo-5 {
+  position: absolute;
+  top: -300px;
+  right: -135px;
+  width: 900px;
+  height: 1013px;
+}
+.text-5 {
+  text-align: center;
+  padding-top: 220px;
+
+}
+.text-5 h2 {
+  margin-bottom: 30px;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 72px;
+  line-height: 60px;
+  font-weight: 400;
+  color: #cdb378;
+}
+.text-5 p {
+  margin-bottom: 40px;
+}
